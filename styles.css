@@ -365,8 +365,7 @@ a:hover {
 
 .profile-badges a:nth-child(3),
 .profile-badges a:nth-child(4),
-.profile-badges a:nth-child(5),
-.profile-badges a:nth-child(6) {
+.profile-badges a:nth-child(5) {
   border-color: #5d676f;
   color: #ffffff;
   background: #5d676f;
@@ -1227,6 +1226,12 @@ a:hover {
   margin-top: 14px;
   border: 1px solid var(--line);
   background: var(--paper);
+}
+
+.top-viewed-certificate {
+  height: clamp(180px, 35vw, 310px);
+  object-fit: cover;
+  object-position: top;
 }
 
 .news-gallery {
